@@ -1,0 +1,49 @@
+{
+  "products": [
+    {
+      "name": "Plush Doll",
+      "description": "Comfortable and skin-friendly",
+      "image": "/src/assets/images/plush.jpg"
+    },
+    {
+      "name": "Scent Diffuser",
+      "description": "World class elegance",
+      "image": "/src/assets/images/scent.jpg"
+    },
+    {
+      "name": "Storage Bag",
+      "description": "Right thickness",
+      "image": "/src/assets/images/bag.jpg"
+    },
+    {
+      "name": "Food Container",
+      "description": "Healthy and natural glasses",
+      "image": "/src/assets/images/container.jpg"
+    },
+    {
+      "name": "Face Mask",
+      "description": "Moisturizing and restoring",
+      "image": "/src/assets/images/mask.jpg"
+    },
+    {
+      "name": "Perfumes",
+      "description": "Lovely and elegant",
+      "image": "/src/assets/images/perfume.jpg"
+    },
+    {
+      "name": "Umbrella",
+      "description": "Protecting from sun and rain",
+      "image": "/src/assets/images/umbrella.jpg"
+    },
+    {
+      "name": "Headphone",
+      "description": "High quality sound",
+      "image": "/src/assets/images/headphone.jpg"
+    },
+    {
+      "name": "Keyboard",
+      "description": "High quality",
+      "image": "/src/assets/images/keyboard.jpg"
+    }
+  ]
+}
