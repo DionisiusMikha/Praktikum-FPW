@@ -1,0 +1,518 @@
+.penerbangan {
+  background-color: #9ca3af;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.penerbangan .div {
+  background-color: #9ca3af;
+  height: 1080px;
+  position: relative;
+  width: 1920px;
+}
+
+.penerbangan .kiri {
+  background-color: #d1d5db;
+  border-radius: 35px;
+  height: 774px;
+  left: 59px;
+  position: absolute;
+  top: 153px;
+  width: 1026px;
+}
+
+.penerbangan .frame {
+  height: 620px;
+  left: 62px;
+  overflow: hidden;
+  overflow-y: scroll;
+  position: absolute;
+  top: 95px;
+  width: 924px;
+}
+
+.penerbangan .frame-2 {
+  align-items: center;
+  display: inline-flex;
+  flex-direction: column;
+  gap: 10px;
+  position: relative;
+  top: 7px;
+}
+
+.penerbangan .frame-wrapper {
+  height: 125px;
+  position: relative;
+}
+
+.penerbangan .frame-3 {
+  background-color: #ffffff;
+  border-radius: 20px;
+  height: 125px;
+  position: relative;
+  width: 882px;
+}
+
+.penerbangan .asal-alias-tujuan {
+  color: #000000;
+  font-family: "Inter-Bold", Helvetica;
+  font-size: 24px;
+  font-weight: 700;
+  left: 20px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 21px;
+}
+
+.penerbangan .jadwal-berangkat {
+  color: #000000;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 15px;
+  font-weight: 400;
+  left: 19px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 58px;
+  white-space: nowrap;
+}
+
+.penerbangan .depart-on-berangkat {
+  color: #000000;
+  font-family: "Inter-Bold", Helvetica;
+  font-size: 15px;
+  font-weight: 1000;
+  left: 720px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 75px;
+  white-space: nowrap;
+}
+
+.penerbangan .pesawat-maskapai {
+  color: #000000;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 15px;
+  font-weight: 400;
+  left: 20px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 84px;
+  white-space: nowrap;
+}
+
+.penerbangan .overlap-group {
+  background-color: #93c5fd;
+  border-radius: 82px;
+  height: 35px;
+  left: 719px;
+  position: absolute;
+  top: 23px;
+  width: 143px;
+}
+.penerbangan .overlap-group1 {
+  background-color: #34d399;
+  border-radius: 82px;
+  height: 35px;
+  left: 719px;
+  position: absolute;
+  top: 23px;
+  width: 143px;
+}
+
+.penerbangan .jenis {
+  color: #000000;
+  font-family: "Inter-Bold", Helvetica;
+  font-size: 20px;
+  font-weight: 700;
+  left: 10px;
+  letter-spacing: 0;
+  position: absolute;
+  top: 2px;
+}
+.penerbangan .jenis1 {
+  color: #000000;
+  font-family: "Inter-Bold", Helvetica;
+  font-size: 20px;
+  font-weight: 700;
+  left: 25px;
+  letter-spacing: 0;
+  position: absolute;
+  top: 2px;
+}
+
+.penerbangan .text-wrapper {
+  color: #000000;
+  font-family: "Inter-Bold", Helvetica;
+  font-size: 35px;
+  font-weight: 700;
+  left: 62px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 39px;
+  white-space: nowrap;
+}
+
+.penerbangan .kanan {
+  background-color: #f3f4f6;
+  border-radius: 35px;
+  height: 774px;
+  left: 1143px;
+  position: absolute;
+  top: 153px;
+  width: 718px;
+}
+
+.penerbangan .overlap {
+  height: 96px;
+  left: 195px;
+  position: absolute;
+  top: 546px;
+  width: 256px;
+}
+
+.penerbangan .sampai {
+  height: 96px;
+  left: 160px;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  width: 96px;
+}
+
+.penerbangan .jadwal-berangkat-tgl {
+  color: #000000;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 15px;
+  font-weight: 400;
+  left: 0;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 19px;
+  white-space: nowrap;
+}
+
+.penerbangan .jadwal-berangkat-jm {
+  color: #000000;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 15px;
+  font-weight: 400;
+  left: 0;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 57px;
+  white-space: nowrap;
+}
+
+.penerbangan .berangkat {
+  height: 96px;
+  left: 36px;
+  object-fit: cover;
+  position: absolute;
+  top: 546px;
+  width: 96px;
+}
+
+.penerbangan .text-wrapper-2 {
+  color: #000000;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 25px;
+  font-weight: 400;
+  left: 106px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 510px;
+  white-space: nowrap;
+}
+
+.penerbangan .text-wrapper-3 {
+  color: #000000;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 25px;
+  font-weight: 400;
+  left: 451px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 510px;
+  white-space: nowrap;
+}
+
+.penerbangan .text-wrapper-4 {
+  color: #000000;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 20px;
+  font-weight: 400;
+  left: 36px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 350px;
+  white-space: nowrap;
+}
+
+.penerbangan .text-wrapper-5 {
+  color: #000000;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 20px;
+  font-weight: 400;
+  left: 36px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 383px;
+  white-space: nowrap;
+}
+
+.penerbangan .text-wrapper-6 {
+  color: #000000;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 20px;
+  font-weight: 400;
+  left: 36px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 416px;
+  white-space: nowrap;
+}
+
+.penerbangan .text-wrapper-7 {
+  color: #000000;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 20px;
+  font-weight: 400;
+  left: 36px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 449px;
+  white-space: nowrap;
+}
+
+.penerbangan .overlap-2 {
+  background-color: #e5e7eb;
+  border-radius: 20px;
+  height: 164px;
+  left: 36px;
+  position: absolute;
+  top: 128px;
+  width: 636px;
+}
+
+.penerbangan .img {
+  height: 42px;
+  left: 122px;
+  object-fit: cover;
+  position: absolute;
+  top: 24px;
+  width: 67px;
+}
+
+.penerbangan .img-2 {
+  height: 42px;
+  left: 445px;
+  object-fit: cover;
+  position: absolute;
+  top: 24px;
+  width: 67px;
+}
+
+.penerbangan .maki-arrow {
+  height: 37px;
+  left: 301px;
+  position: absolute;
+  top: 66px;
+  width: 37px;
+}
+
+.penerbangan .asal-kota {
+  color: #000000;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 20px;
+  font-weight: 400;
+  left: 100px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 90px;
+  white-space: nowrap;
+}
+
+.penerbangan .tujuan-kota {
+  color: #000000;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 20px;
+  font-weight: 400;
+  left: 445px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 90px;
+  white-space: nowrap;
+}
+
+.penerbangan .asal-bandara {
+  color: #000000;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 20px;
+  font-weight: 400;
+  left: 5px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 119px;
+  white-space: nowrap;
+}
+
+.penerbangan .asal-bandara-2 {
+  color: #000000;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 20px;
+  font-weight: 400;
+  left: 350px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 119px;
+  white-space: nowrap;
+}
+
+.penerbangan .pesawat-maskapai-2 {
+  color: #000000;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 25px;
+  font-weight: 400;
+  left: 36px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 56px;
+  white-space: nowrap;
+}
+
+.penerbangan .jadwal-berangkat-2 {
+  color: #000000;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 20px;
+  font-weight: 400;
+  left: 364px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 350px;
+  white-space: nowrap;
+}
+
+.penerbangan .jadwal-berangkat-jam {
+  color: #000000;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 20px;
+  font-weight: 400;
+  left: 364px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 383px;
+  white-space: nowrap;
+}
+
+.penerbangan .durasi {
+  color: #000000;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 20px;
+  font-weight: 400;
+  left: 364px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 416px;
+  white-space: nowrap;
+}
+
+.penerbangan .jenis-2 {
+  color: #000000;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 20px;
+  font-weight: 400;
+  left: 364px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 449px;
+  white-space: nowrap;
+}
+
+.penerbangan .tanggal {
+  height: 38px;
+  left: 147px;
+  object-fit: cover;
+  position: absolute;
+  top: 556px;
+  width: 38px;
+}
+
+.penerbangan .tanggal-2 {
+  height: 38px;
+  left: 466px;
+  object-fit: cover;
+  position: absolute;
+  top: 556px;
+  width: 38px;
+}
+
+.penerbangan .durasi-2 {
+  height: 37px;
+  left: 147px;
+  object-fit: cover;
+  position: absolute;
+  top: 594px;
+  width: 37px;
+}
+
+.penerbangan .durasi-3 {
+  height: 37px;
+  left: 466px;
+  object-fit: cover;
+  position: absolute;
+  top: 594px;
+  width: 37px;
+}
+
+.penerbangan .jadwal-berangkat-tgl-2 {
+  color: #000000;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 15px;
+  font-weight: 400;
+  left: 514px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 565px;
+  white-space: nowrap;
+}
+
+.penerbangan .jadwal-berangkat-jm-2 {
+  color: #000000;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 15px;
+  font-weight: 400;
+  left: 514px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 603px;
+  white-space: nowrap;
+}
