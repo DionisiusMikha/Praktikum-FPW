@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.background{
+  background-color: rgb(172, 221, 224);
+}
+
+.button-clear{
+  background-color: rgb(243, 116, 116);
+}
+
+.add{
+  background-color: rgb(116, 159, 243);
+}
+
+.generate{
+  background-color: rgb(90, 164, 88);
+}

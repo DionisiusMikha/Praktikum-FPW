@@ -1,0 +1,224 @@
+.home {
+  background-color: #26215d;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.home .div {
+  background-color: #26215d;
+  height: 1080px;
+  position: relative;
+  width: 1920px;
+}
+
+.home .kiri {
+  background-color: #fcf8f8;
+  border-radius: 35px;
+  height: 774px;
+  left: 59px;
+  position: absolute;
+  top: 153px;
+  width: 592px;
+}
+
+.home .overlap {
+  background-color: #665bdb;
+  border-radius: 15px;
+  height: 75px;
+  left: 0;
+  position: absolute;
+  top: 817px;
+  width: 592px;
+}
+
+.home .text-wrapper {
+  color: #ffffff;
+  font-family: "Inter-Bold", Helvetica;
+  font-size: 35px;
+  font-weight: 700;
+  left: 153px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 16px;
+  white-space: nowrap;
+}
+
+.home .listworkout {
+  height: 665px;
+  left: 38px;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  position: absolute;
+  top: 38px;
+  width: 493px;
+}
+
+.home .frame {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  position: relative;
+  width: 493px;
+}
+
+.home .frame-wrapper {
+  height: 125px;
+  position: relative;
+  width: 492px;
+}
+
+.home .frame-2 {
+  background-color: #fcf8f8;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-color: #d1d5db;
+  height: 125px;
+  position: relative;
+  width: 492px;
+}
+
+.home .nama {
+  color: #000000;
+  font-family: "Inter-Bold", Helvetica;
+  font-size: 24px;
+  font-weight: 700;
+  left: 5px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 12px;
+  width: 500px;
+}
+
+.home .overlap-group-wrapper {
+  height: 28px;
+  left: 6px;
+  position: absolute;
+  top: 50px;
+  width: 126px;
+}
+
+.home .overlap-group {
+  background-color: #f1f551;
+  border-radius: 14px;
+  height: 28px;
+  position: relative;
+  width: 124px;
+}
+
+.home .kesuliatan {
+  color: #000000;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 15px;
+  font-weight: 400;
+  left: 6px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 5px;
+  width: 111px;
+}
+
+.home .waktu-menit {
+  color: #000000;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 15px;
+  font-weight: 400;
+  left: 30px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 87px;
+  width: 140px;
+}
+
+.home .durasi {
+  height: 22px;
+  left: 6px;
+  object-fit: cover;
+  position: absolute;
+  top: 86px;
+  width: 22px;
+}
+
+.home .male {
+  height: 46px;
+  left: 404px;
+  position: absolute;
+  top: 37px;
+  width: 46px;
+}
+
+.home .kesuliatan-wrapper {
+  background-color: #53f545;
+  border-radius: 14px;
+  height: 28px;
+  position: relative;
+  width: 124px;
+}
+
+.home .female {
+  height: 52px;
+  left: 404px;
+  position: absolute;
+  top: 36px;
+  width: 36px;
+}
+
+.home .div-wrapper {
+  background-color: #f45151;
+  border-radius: 14px;
+  height: 28px;
+  position: relative;
+  width: 124px;
+}
+
+.home .intersex {
+  height: 61px;
+  left: 404px;
+  position: absolute;
+  top: 34px;
+  width: 45px;
+}
+
+.home .kanan-kosong {
+  background-color: #f3f4f6;
+  border-radius: 35px;
+  height: 892px;
+  left: 725px;
+  position: absolute;
+  top: 153px;
+  width: 1136px;
+}
+
+.home .p {
+  color: #b9b8b8;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 35px;
+  font-weight: 400;
+  left: 341px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 424px;
+  white-space: nowrap;
+}
+
+.home .text-wrapper-2 {
+  color: #ffffff;
+  font-family: "Inter-Bold", Helvetica;
+  font-size: 35px;
+  font-weight: 700;
+  left: 865px;
+  letter-spacing: 12.6px;
+  line-height: normal;
+  position: absolute;
+  top: 54px;
+  white-space: nowrap;
+}
+
