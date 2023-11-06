@@ -50,18 +50,19 @@ export default function Form({ inputStatus, setInputStatus, data, setData, setSt
 
     generate_data.education = education;
 
-    const list_experiences = experiences.map(experience => {
+    const temp = [];
+    for (let i = 0; i < experiences.length; i++) {
       const temp_exp = {
-        title: experience.title,
-        place: experience.place,
-        description: experience.description,
-        start: experience.start,
-        end: experience.end
+        title: data.experiences[`${experiences[i].id}`].title,
+        place: data.experiences[`${experiences[i].id}`].place,
+        desc: data.experiences[`${experiences[i].id}`].desc,
+        start: data.experiences[`${experiences[i].id}`].start,
+        end: data.experiences[`${experiences[i].id}`].end
       };
-      return temp_exp;
-    });
-
-    generate_data.experiences = list_experiences;
+      temp.push(temp_exp)
+    }
+    generate_data.experiences = temp;
+    // console.log(temp);
     setData(generate_data);
     setState("view");
   };

@@ -14,6 +14,7 @@ export default function View({data, setState}) {
   const toForm = () => {
       setState("form")
   }
+  console.log(data)
   return (
     <div className="container">
       <div className="div">
@@ -66,7 +67,7 @@ export default function View({data, setState}) {
             {data.experiences.map((item, idx) => (
               <div key={idx} className='experience-item'>
                 <p className="text-wrapper-9">
-                  {item.description}
+                  {item.desc}
                 </p>
                 <div className="text-wrapper-10">{item.title}</div>
                 <div className="frame-3">
