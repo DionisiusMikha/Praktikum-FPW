@@ -1,0 +1,666 @@
+
+.home {
+    background-color: #f0eeee;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    overflow-x: hidden;
+  }
+  
+  .home .div {
+    background-color: #f0eeee;
+    height: 2448px;
+    position: relative;
+    width: 1920px;
+  }
+  
+  .home .new-relase {
+    height: 552px;
+    left: 240px;
+    position: absolute;
+    top: 100px;
+    width: 1440px;
+  }
+  
+  .home .overlap { 
+    background-position: 50% 50%;
+    background-size: cover;
+    height: 468px;
+    left: 0;
+    position: absolute;
+    top: 84px;
+    width: 1440px;
+  }
+  
+  .home .l {
+    height: 19px;
+    left: 45px;
+    position: absolute;
+    top: 225px;
+    width: 32px;
+  }
+  
+  .home .r {
+    height: 500px;
+    left: 1100px;
+    overflow: hidden;
+    position: absolute;
+    top: 30px;
+    width: 300px;
+  }
+  
+  .home .group {
+    height: 200px;
+    position: relative;
+    top: -1px;
+  }
+  
+  .home .overlap-group-wrapper {
+    height: 500px;
+    width: 300px;
+  }
+  
+  .home .overlap-group {
+    height: 200px;
+    position: relative;
+    width: 300px;
+  }
+  
+  .home .vector {
+    height: 19px;
+    left: 0;
+    position: absolute;
+    top: 1px;
+    width: 32px;
+  }
+  
+  .home .text-wrapper {
+    background-color: var(--playstation-blue);
+    font-family: "Open Sans-SemiBold", Helvetica;
+    font-size: 13px;
+    font-weight: 600;
+    height: 300px;
+    left: 12px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 0;
+  }
+  
+  .home .div-wrapper {
+    background-color: var(--playstation-blue);
+    border-radius: 5px;
+    box-shadow: var(--dark-blue);
+    height: 37px;
+    left: 104px;
+    position: absolute;
+    top: 392px;
+    width: 102px;
+  }
+  
+  .home .text-wrapper-2 {
+    color: #ffffff;
+    font-family: "Open Sans-SemiBold", Helvetica;
+    font-size: 22px;
+    font-weight: 600;
+    height: 30px;
+    left: 20px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 6px;
+  }
+  
+  .home .overlap-2 {
+    height: 60px;
+    left: 104px;
+    position: absolute;
+    top: 315px;
+    width: 198px;
+  }
+  
+  .home .text-wrapper-3 {
+    color: #ffffff;
+    font-family: "Open Sans-SemiBold", Helvetica;
+    font-size: 40px;
+    font-weight: 600;
+    height: 54px;
+    width: 1000px;
+    left: 0;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 20px;
+  }
+  
+  .home .text-wrapper-4 {
+    color: #ffffff;
+    font-family: "Open Sans-SemiBold", Helvetica;
+    font-size: 13px;
+    font-weight: 600;
+    height: 18px;
+    left: 0;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 0;
+  }
+  
+  .home .text-wrapper-5 {
+    color: #ffffff;
+    font-family: "Open Sans-SemiBold", Helvetica;
+    font-size: 20px;
+    font-weight: 600;
+    height: 27px;
+    left: 104px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 288px;
+  }
+  
+  .home .text-wrapper-6 {
+    color: #ffffff;
+    font-family: "Open Sans-Regular", Helvetica;
+    font-size: 14px;
+    font-weight: 400;
+    height: 19px;
+    left: 214px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-decoration: underline;
+    top: 404px;
+  }
+  
+  .home .text-wrapper-7 {
+    color: #404040;
+    font-family: "Open Sans-SemiBold", Helvetica;
+    font-size: 50px;
+    font-weight: 600;
+    height: 68px;
+    left: 0;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: -1px;
+  }
+  
+  .home .best-offers {
+    height: 760px;
+    left: 240px;
+    position: absolute;
+    top: 760px;
+    width: 1440px;
+  }
+  
+  .home .overlap-3 {
+    background-color: var(--dark-bg);
+    border: 1px solid;
+    border-color: var(--dark-grey);
+    border-radius: 20px;
+    height: 674px;
+    left: 0;
+    position: absolute;
+    top: 86px;
+    width: 644px;
+  }
+  
+  .home .price {
+    height: 30px;
+    left: 26px;
+    position: absolute;
+    top: 609px;
+    width: 183px;
+  }
+  
+  .home .price-wrapper {
+    background-color: var(--playstation-blue);
+    border-radius: 10px;
+    box-shadow: var(--dark-blue);
+    height: 30px;
+    position: relative;
+    width: 181px;
+  }
+  
+  .home .price-2 {
+    color: var(--white);
+    font-family: "Open Sans-Bold", Helvetica;
+    font-size: 17px;
+    font-weight: 700;
+    left: 41px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 6px;
+    width: 99px;
+  }
+  
+  .home .add-on-wrapper {
+    background-color: var(--dark-bg);
+    border: 1px solid;
+    border-color: var(--dark-grey);
+    border-radius: 2px;
+    height: 17px;
+    left: 26px;
+    position: absolute;
+    top: 570px;
+    width: 141px;
+  }
+  
+  .home .add-on {
+    color: var(--grey);
+    font-family: "Open Sans-Regular", Helvetica;
+    font-size: 12px;
+    font-weight: 400;
+    height: 14px;
+    left: 1px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: -1px;
+    white-space: nowrap;
+    width: 138px;
+  }
+  
+  .home .text {
+    height: 38px;
+    left: 26px;
+    position: absolute;
+    top: 430px;
+    width: 592px;
+  }
+  
+  .home .title {
+    color: var(--white);
+    font-family: "Open Sans-ExtraBold", Helvetica;
+    font-size: 24px;
+    font-weight: 800;
+    left: 0;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 0;
+    width: 590px;
+  }
+  
+  .home .title-wrapper {
+    height: 38px;
+    left: 26px;
+    position: absolute;
+    top: 527px;
+    width: 592px;
+  }
+  
+  .home .text-2 {
+    height: 38px;
+    left: 26px;
+    position: absolute;
+    top: 392px;
+    width: 592px;
+  }
+  
+  .home .title-2 {
+    color: var(--white);
+    font-family: "Open Sans-ExtraBold", Helvetica;
+    font-size: 16px;
+    font-weight: 800;
+    left: 0;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 0;
+    width: 590px;
+  }
+  
+  .home .game-image {
+    height: 354px;
+    left: 26px;
+    object-fit: cover;
+    position: absolute;
+    top: 23px;
+    width: 590px;
+  }
+  
+  .home .cyberpunk {
+    background-color: var(--dark-bg);
+    border: 1px solid;
+    border-color: var(--dark-grey);
+    border-radius: 10px;
+    height: 316px;
+    left: 726px;
+    position: absolute;
+    top: 444px;
+    width: 345px;
+  }
+  
+  .home .price-3 {
+    height: 29px;
+    left: 11px;
+    position: absolute;
+    top: 267px;
+    width: 323px;
+  }
+  
+  .home .overlap-group-2 {
+    background-color: var(--playstation-blue);
+    border-radius: 10px;
+    box-shadow: var(--dark-blue);
+    height: 29px;
+    position: relative;
+    width: 321px;
+  }
+  
+  .home .price-4 {
+    color: var(--white);
+    font-family: "Open Sans-Bold", Helvetica;
+    font-size: 12px;
+    font-weight: 700;
+    left: 73px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 6px;
+    width: 175px;
+  }
+  
+  .home .title-3 {
+    color: var(--white);
+    font-family: "Open Sans-ExtraBold", Helvetica;
+    font-size: 16px;
+    font-weight: 800;
+    left: 11px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 202px;
+    width: 200px;
+  }
+  
+  .home .discount-wrapper {
+    background-position: 50% 50%;
+    background-size: cover;
+    height: 190px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 345px;
+  }
+  
+  .home .discount {
+    height: 18px;
+    left: 12px;
+    position: relative;
+    top: 165px;
+    width: 50px;
+  }
+  
+  .home .overlap-4 {
+    background-color: #000000b2;
+    border: 1px solid;
+    border-color: var(--white);
+    height: 20px;
+    left: -1px;
+    position: relative;
+    top: -1px;
+  }
+  
+  .home .text-wrapper-8 {
+    color: #ffffff;
+    font-family: "Open Sans-SemiBold", Helvetica;
+    font-size: 12px;
+    font-weight: 600;
+    left: 4px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 1px;
+  }
+  
+  .home .streamline-interface {
+    height: 20px;
+    left: 302px;
+    position: absolute;
+    top: 236px;
+    width: 22px;
+  }
+  
+  .home .relase-wrapper {
+    background-color: var(--dark-bg);
+    border: 1px solid;
+    border-color: var(--dark-grey);
+    border-radius: 2px;
+    height: 16px;
+    left: 11px;
+    position: absolute;
+    top: 242px;
+    width: 153px;
+  }
+  
+  .home .relase {
+    color: var(--grey);
+    font-family: "Open Sans-Regular", Helvetica;
+    font-size: 12px;
+    font-weight: 400;
+    height: 14px;
+    left: 3px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: -1px;
+    white-space: nowrap;
+    width: 148px;
+  }
+  
+  .home .cyberpunk-2 {
+    background-color: var(--dark-bg);
+    border: 1px solid;
+    border-color: var(--dark-grey);
+    border-radius: 10px;
+    height: 316px;
+    left: 1095px;
+    position: absolute;
+    top: 444px;
+    width: 345px;
+  }
+
+  .item-game{
+    position: absolute;
+    top: 15px;
+    left: 2%;
+    width: 329px;
+    height: 170px;
+  }
+  
+  .home .overlap-5 {
+    background-image: url(./game-image-3.png);
+    background-position: 50% 50%;
+    background-size: cover;
+    height: 190px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 345px;
+  }
+  
+  .home .cyberpunk-3 {
+    background-color: var(--dark-bg);
+    border: 1px solid;
+    border-color: var(--dark-grey);
+    border-radius: 10px;
+    height: 316px;
+    left: 726px;
+    position: absolute;
+    top: 86px;
+    width: 345px;
+  }
+  
+  .home .overlap-6 {
+    background-image: url(./game-image-2.png);
+    background-position: 50% 50%;
+    background-size: cover;
+    height: 190px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 345px;
+  }
+  
+  .home .cyberpunk-4 {
+    background-color: var(--dark-bg);
+    border: 1px solid;
+    border-color: var(--dark-grey);
+    border-radius: 10px;
+    height: 316px;
+    left: 1095px;
+    position: absolute;
+    top: 86px;
+    width: 345px;
+  }
+  
+  .home .overlap-7 {
+    background-image: url(./game-image-4.png);
+    background-position: 50% 50%;
+    background-size: cover;
+    height: 190px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 345px;
+  }
+  
+  .home .best-metacritic {
+    height: 784px;
+    left: 240px;
+    position: absolute;
+    top: 1562px;
+    width: 1440px;
+  }
+  
+  .home .overlap-8 {
+    background-color: var(--dark-bg);
+    border: 1px solid;
+    border-color: var(--dark-grey);
+    border-radius: 20px;
+    height: 674px;
+    left: 796px;
+    position: absolute;
+    top: 110px;
+    width: 644px;
+  }
+  
+  .home .text-3 {
+    height: 38px;
+    left: 26px;
+    position: absolute;
+    top: 396px;
+    width: 592px;
+  }
+  
+  .home .text-4 {
+    height: 38px;
+    left: 26px;
+    position: absolute;
+    top: 439px;
+    width: 592px;
+  }
+  
+  .home .cyberpunk-5 {
+    background-color: var(--dark-bg);
+    border: 1px solid;
+    border-color: var(--dark-grey);
+    border-radius: 10px;
+    height: 316px;
+    left: 0;
+    position: absolute;
+    top: 468px;
+    width: 345px;
+  }
+  
+  .home .overlap-9 {
+    background-image: url(./game-image-6.png);
+    background-position: 50% 50%;
+    background-size: cover;
+    height: 190px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 345px;
+  }
+  
+  .home .cyberpunk-6 {
+    background-color: var(--dark-bg);
+    border: 1px solid;
+    border-color: var(--dark-grey);
+    border-radius: 10px;
+    height: 316px;
+    left: 369px;
+    position: absolute;
+    top: 468px;
+    width: 345px;
+  }
+  
+  .home .overlap-10 {
+    background-image: url(./game-image-7.png);
+    background-position: 50% 50%;
+    background-size: cover;
+    height: 190px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 345px;
+  }
+  
+  .home .cyberpunk-7 {
+    background-color: var(--dark-bg);
+    border: 1px solid;
+    border-color: var(--dark-grey);
+    border-radius: 10px;
+    height: 316px;
+    left: 0;
+    position: absolute;
+    top: 110px;
+    width: 345px;
+  }
+  
+  .home .overlap-11 {
+    background-image: url(./game-image-8.png);
+    background-position: 50% 50%;
+    background-size: cover;
+    height: 190px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 345px;
+  }
+  
+  .home .cyberpunk-8 {
+    background-color: var(--dark-bg);
+    border: 1px solid;
+    border-color: var(--dark-grey);
+    border-radius: 10px;
+    height: 316px;
+    left: 369px;
+    position: absolute;
+    top: 110px;
+    width: 345px;
+  }
+  
+  .home .overlap-12 {
+    background-image: url(./game-image-9.png);
+    background-position: 50% 50%;
+    background-size: cover;
+    height: 190px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 345px;
+  }
+  
