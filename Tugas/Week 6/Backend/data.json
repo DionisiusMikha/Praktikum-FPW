@@ -1,0 +1,72 @@
+[
+    {
+        "email": "mikha@gmail.com",
+        "first_name": "Dionisius",
+        "last_name": "Mikha",
+        "password": "qwerty",
+        "story": [
+            {
+                "id": 1,
+                "judul": "Archon of Hydro",
+                "thumb": "https://img.game8.co/3792267/8d604b88226af5e9ec0a3e90c41ee49e.png/original",
+                "chara": [
+                    {
+                        "id_chara": 1,
+                        "nama": "Furina",
+                        "peran": "MC",
+                        "umur": 500,
+                        "sifat": "The absolute focus of the stage of judgment, until the final applause sounds.",
+                        "backstory": "Introduced as the flamboyant and overconfident Hydro Archon, Furina's theatrics are eventually revealed to be a public persona, which she later discards in favor of living a much humbler life."
+                    },
+                    {
+                        "id_chara": 2,
+                        "nama": "Navia",
+                        "peran": "NPC",
+                        "umur": 20,
+                        "sifat": "gausah dijelasin",
+                        "backstory": "gak perlu kepo, nanti kalo udah jadi cerita bakal dijelasin"
+                    },
+                    {
+                        "id_chara": 3,
+                        "nama": "Nopal",
+                        "peran": "NPC",
+                        "umur": 3000,
+                        "sifat": "hakim yang adil",
+                        "backstory": "pokoknya dia hakim yang adil deh backstory nya gatau juga sih" 
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "judul": "The Lost City",
+                "thumb": "https://img.game8.co/3792381/175ed3d73ba3b0976afe48d808a7f47d.png/original",
+                "chara": [
+                    {
+                        "id_chara": 4,
+                        "nama": "Elena",
+                        "peran": "MC",
+                        "umur": 25,
+                        "sifat": "Curious and adventurous",
+                        "backstory": "Elena is a brave explorer who embarks on a journey to discover the secrets of the lost city. Her curiosity and adventurous spirit lead her through challenging obstacles and unexpected discoveries."
+                    },
+                    {
+                        "id_chara": 5,
+                        "nama": "Kai",
+                        "peran": "NPC",
+                        "umur": 30,
+                        "sifat": "Mysterious guide",
+                        "backstory": "Kai is a mysterious guide who joins Elena on her journey. His past is shrouded in mystery, and he holds the key to unlocking the secrets of the lost city."
+                    },
+                    {
+                        "id_chara": 6,
+                        "nama": "Luna",
+                        "peran": "NPC",
+                        "umur": 500,
+                        "sifat": "Ancient guardian",
+                        "backstory": "Luna is an ancient guardian of the lost city, awakened by Elena's presence. She is wise and powerful, guiding Elena and Kai in their quest while protecting the city's ancient secrets."
+                    }
+                ]
+            }
+        ]
+    }
+]

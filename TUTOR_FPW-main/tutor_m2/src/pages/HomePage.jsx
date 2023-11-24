@@ -23,6 +23,13 @@ const HomePage = () => {
         setBooks([...books, newBook])
     }
 
+    const deleteItem = (idx) => {
+        const arrBooks = [...books]
+        arrBooks.splice(idx, 1)
+        setBooks(arrBooks)
+        console.log(idx)
+    }
+
     return(
         <div className="p-20 text-left">
             <div className="form">
@@ -42,7 +49,7 @@ const HomePage = () => {
                     {
                         books.map((book, index) => {
                             return(
-                                <BookCard key={index} book={book} />
+                                <BookCard key={index} book={book} handleDelete={deleteItem} idx={index} />
                             )
                         })
                     }
